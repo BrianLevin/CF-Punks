@@ -2,7 +2,7 @@ import React from "react";
 import "./Header.css";
 import punkLogo from "../assets/header/cryptopunk-logo.png";
 import searchIcon from "../assets/header/search.png";
-import themeSwitchIcon from "../assets/header/theme-switch.png"
+import themeSwitchIcon from "../assets/header/theme-switch.png";
 
 export const Header = () => {
   return (
@@ -26,12 +26,12 @@ export const Header = () => {
         <p>Create</p>
       </div>
       <div className="headerActions">
-          <div className="themeSwitchContainer">
-<img src={themeSwitchIcon}  alt= "" />
-
-          </div>
-
+        <div className="themeSwitchContainer">
+          <img src={themeSwitchIcon} alt="" />
+        </div>
       </div>
+      
+      <div className="loginButton">GET IN</div>
     </div>
   );
 };
